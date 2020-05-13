@@ -1,0 +1,160 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-div {
+    display: flex; 
+    justify-content: center;
+}
+
+.search-box {
+    width: 387px;
+    height: 34px;
+    border: transparent;
+    padding-top: 4px;
+}
+
+.search-container {
+    width: 482px;
+    height: 44px;
+    border-color: lightgray;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    margin: auto;
+}
+
+body {
+    font-family: arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: inline-block;
+    padding-left: 15px;
+    text-decoration: none;
+    color: #000;
+    opacity: 0.75;
+    font-size: 13px;
+}
+
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+#apps-logo {
+    padding-left: 15px;
+    opacity: 0.50;
+}
+
+/*.footer1{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 45px;
+    color: #000;
+    opacity: 0.75;
+    padding-bottom: 6px;
+    margin-left: -10px;
+    border: solid 1px rgb(216, 216, 216);
+    background: rgb(240, 240, 240);
+    visibility: visible;
+}
+
+.footer2{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    color: #000;
+    opacity: 0.75;
+    padding-bottom: 6px;
+    margin-left: -10px;
+    border: solid 1px rgb(216, 216, 216);
+    background: rgb(240, 240, 240);
+    visibility: visible;
+}*/
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(242,242,242, 0.75);
+    width: 100%;
+    color: rgba(0,0,0,0.5);
+    border: 1px solid rgb(216, 216, 216);
+    padding-bottom: 50px;
+}
+
+.footer2 {
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(242,242,242, 0.75);
+    width: 100%;
+    color: rgba(0,0,0,0.5);
+    border: 1px solid rgb(216, 216, 216);
+    padding: 15px 0px 15px 0px;
+}
+
+p {
+    padding-left: 27px;
+    font-size: 15.5px;
+}
+
+#search-logo {
+    float: left;
+    padding: 10px 0px 0px 10px;
+    opacity: 0.50;
+}
+
+.search-buttons {
+    background-color: rgb(242,242,242, 0.75);
+    opacity: 0.9;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #f2f2f2;
+    padding: 8px 16px 8px 16px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.footer-links {
+    font-size: 15.5px;
+    color: rgba(0,0,0,0.7);
+    padding-right: 5px;
+}
+
+.languages {
+    color: blue;
+    margin: 0px 0px 0px 0px;
+    opacity: 1;
+}
+
+.languages-container {
+    display: flex;
+    align-items: baseline;
+    padding-top: 10px;
+}
