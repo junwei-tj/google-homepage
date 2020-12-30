@@ -1,51 +1,52 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Google Replica</title>
-        <link rel="stylesheet" href="styles.css">
-        <meta charset="UTF-8">
-    </head>
+  <head>
+    <title>Google Homepage Replica</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+  </head>
 
-    <body>
-        <ul style="margin-top: 20px; margin-right: 10px;">
-            <li style="float: right; padding-right: 15px;" ><a href="#">Sign In</a></li>
-            <li style="float: right;" ><a href="#">Apps</a></li>
-            <li style="float: right;" ><img id="apps-logo" src="images/apps-logo.png" alt="apps logo"></li>
-            <li style="float: right;" ><a href="#">Gmail</a></li>
-        </ul>
-        <img class="center" style="margin-top: 120px;" src="images/google-logo.png" alt="Google logo">
-        <div class="search-container" style="margin-top: 30px;">
-            <img id="search-logo" src="images/search-logo.png" alt="search button">
-            <label for="search">
-                <input class="center search-box" type="text">
-            </label>
+  <body>
+    <div class="header-row">
+      <a href="#">Gmail</a>
+      <a href="#">Images</a>
+      <img style="opacity: 55%" src="images/apps-logo.png" alt="More Apps">
+      <a id="sign-in" href="#">Sign In</a>
+    </div>
+    <img id="google-logo" src="images/google-logo.png" alt="Google Logo">
+    <div id="search-container">
+      <img style="opacity: 25%" src="images/search-logo.png" alt="Search">
+      <label for="search-key">
+        <input type="text" id="search-key" name="search-key">
+      </label>
+    </div>
+    <div id="search-buttons-row">
+      <button class="search-button" type="button">Google Search</button>
+      <button class="search-button" type="button">I'm Feeling Lucky</button>
+    </div>
+    <div id="languages-row">
+      Google offered in:
+      <a class="language-link" href="#">中文(简体)</a>
+      <a class="language-link" href="#">Melayu</a>
+      <a class="language-link" href="#"> தமிழ்</a>
+    </div>
+    <div id="footer">
+      <div class="footer-row">
+        <span id="country">Singapore</span>
+      </div>
+      <div class="footer-row" style="border-top: none">
+        <div id="footer-left">
+          <a class="footer-links" href="#">Advertising</a>
+          <a class="footer-links" href="#">Business</a>
+          <a class="footer-links" href="#">About</a>
+          <a class="footer-links" href="#">How Search works</a>
         </div>
-        <div class="center-div">
-            <button class="search-buttons" type="submit">Google Search</button>
-            <button class="search-buttons" type="submit">I'm Feeling Lucky</button>
+        <div id="footer-right">
+          <a class="footer-links" href="#">Privacy</a>
+          <a class="footer-links" href="#">Terms</a>
+          <a class="footer-links" href="#">Settings</a>
         </div>
-        <div class="languages-container center-div">
-            <p style="font-size: 13px;">Google offered in: </p>
-            <a class="languages" href="#">中文(简体)</a>
-            <a class="languages" href="#">Melayu</a>
-            <a class="languages" href="#">தமிழ்</a>
-        </div>
-        <div>
-            <div class="footer">
-                <p>Singapore</p>
-            </div>
-            <div class="footer2">
-                <ul style="margin-left: 12px;">
-                    <li><a class="footer-links" href="#">Advertising</a></li>
-                    <li><a class="footer-links" href="#">Business</a></li>
-                    <li><a class="footer-links" href="#">About</a></li>
-                    <li><a class="footer-links" href="#">How Search works</a></li>
-                    <li style="float: right; padding-right: 25px;" ><a class="footer-links" href="#">Settings</a></li>
-                    <li style="float: right;" ><a class="footer-links" href="#">Terms</a></li>
-                    <li style="float: right;" ><a class="footer-links" href="#">Privacy</a></li>
-                </ul>
-            </div>
-        </div>
-        
-    </body>
+      </div>
+    </div>
+  </body>
 </html>
